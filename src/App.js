@@ -273,7 +273,6 @@ function App() {
             <ul className="flex flex-col text-gray-300 space-y-3 cursor-pointer">
               <li>+012 3456789</li>
               <li>adorableprogrammer@gmail.com</li>
-              <li>list 1</li>
             </ul>
           </div>
         </div>
