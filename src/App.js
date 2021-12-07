@@ -102,7 +102,7 @@ function App() {
             </p>
           </div>
           <div className="flex justify-start space-x-10">
-            <img src={art} alt="art image" />
+            <img src={art} alt="aråt image" />
             <div className="flex flex-col w-6/12 justify-center space-y-5">
               <h1 className="text-white font-extrabold text-5xl">
                 Get Popular NFT
@@ -111,10 +111,11 @@ function App() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
                 metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
-                interdum tellus elit sed risus. Maecenas eget condimentum velit,
-                sit amet feugiat lectus. Class aptent taciti sociosqu ad litora
-                torquent per conubia nostra, per inceptos himenaeos. Praesent
-                auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+                interdum åtellus elit sed risus. Maecenas eget condimentum
+                velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad
+                litora torquent per conubia nostra, per inceptos himenaeos.
+                Praesent auctor purus luctus enim egestas, ac scelerisque ante
+                pulvinar.
               </p>
               <button className="bg-gradient-to-br w-32 text-white font-bold hover:from-pink-800 from-pink-500 to-purple-600 py-2 px-3 rounded-lg">
                 Show More
