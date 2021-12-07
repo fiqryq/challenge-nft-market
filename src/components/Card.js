@@ -5,7 +5,7 @@ export default function Card({ src, username, bid, size }) {
       className={`w-${size} h-110 bg-gray-300 bg-opacity-20 p-3 rounded-md flex flex-col space-y-2 shadow-md blur-lg`}
     >
       <img
-        className="h-72 rounded-lg transform hover:scale-110 cursor-pointer"
+        className="h-72 rounded-lg transform hover:scale-110 object-cover cursor-pointer"
         src={src}
         alt=""
       />
