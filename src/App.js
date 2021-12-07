@@ -34,7 +34,7 @@ function App() {
   });
 
   return (
-    <div className="bg-gradient-to-r from-yellow-800 to-indigo-800 backdrop-filter backdrop-blur-xl py-10">
+    <div className="bg-gradient-to-r from-red-800 to-indigo-900 backdrop-filter backdrop-blur-xl py-10">
       <div className="container mx-auto">
         {/* Hero */}
         <div className="h-screen space-y-10">
@@ -227,7 +227,7 @@ function App() {
         </div>
 
         {/* Big Card */}
-        <div className="mx-auto space-y-3 w-10/12 flex flex-col justify-center items-center my-16 h-72 rounded-lg bg-gradient-to-br text-white shadow-sm font-bold from-pink-500 to-indigo-800">
+        <div className="mx-auto space-y-3 flex flex-col justify-center items-center my-16 h-72 rounded-lg bg-gradient-to-br text-white shadow-sm font-bold from-pink-500 to-indigo-800">
           <h1 className="text-white text-4xl font-bold">
             Get ready to collect our NFT
           </h1>
@@ -235,7 +235,59 @@ function App() {
             Get Started
           </button>
         </div>
+
         {/* Footer */}
+        <div className="flex justify-between my-5">
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-white font-bold text-3xl">
+              Psycho
+              <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-purple-600">
+                Art
+              </span>
+            </h1>
+            <p className="max-w-lg text-gray-300 ">
+              The best NFT marketplace website in the world and feel your
+              experience in selling or buy our work
+            </p>
+          </div>
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-white font-bold text-xl">About</h1>
+            <ul className="flex flex-col text-gray-300 space-y-3 cursor-pointer">
+              <li>Product</li>
+              <li>Resource</li>
+              <li>Term & Condition</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-white font-bold text-xl">Company</h1>
+            <ul className="flex flex-col text-gray-300 space-y-3 cursor-pointer">
+              <li>Our Team</li>
+              <li>Partner With Us</li>
+              <li>Privacy & Policy</li>
+              <li>Features</li>
+            </ul>
+          </div>
+          <div className="flex flex-col space-y-3">
+            <h1 className="text-white font-bold text-xl">Contact</h1>
+            <ul className="flex flex-col text-gray-300 space-y-3 cursor-pointer">
+              <li>+012 3456789</li>
+              <li>adorableprogrammer@gmail.com</li>
+              <li>list 1</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="text-center mt-16 text-gray-300">
+          <p>
+            Design by <span className="text-white font-bold">Zarror</span> code
+            by
+            <span className="text-pink-600 font-bold">
+              <a href="https://github.com/fiqryq"> @fiqryq </a>
+            </span>
+            | All Right Reserved!
+          </p>
+        </div>
       </div>
     </div>
   );
