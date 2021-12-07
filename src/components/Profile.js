@@ -8,7 +8,11 @@ export default function Profile({ username, avatar, cover }) {
       />
       <div className="absolute top-36">
         <div className="flex flex-col items-center text-center space-y-4 px-4">
-          <img className="w-24 h-24 rounded-full" src={avatar} alt="" />
+          <img
+            className="w-24 h-24 rounded-full object-cover"
+            src={avatar}
+            alt=""
+          />
           <h1 className="text-white text-2xl font-bold">{username}</h1>
           <p className="text-gray-300">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
