@@ -24,7 +24,7 @@ export default function Navigation() {
         </li>
         <li>
           <a
-            className="bg-gradient-to-br from-pink-600 to-purple-700 p-3 rounded-lg"
+            className="bg-gradient-to-br hover:from-pink-800 from-pink-600 to-purple-700 p-3 rounded-lg"
             href="#"
           >
             Select Wallet
